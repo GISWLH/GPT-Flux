@@ -89,6 +89,7 @@ python src/train.py   # 默认即 v1 配置（configs/qlora.yaml）
 ## 问答效果展示
 
 > 取自 v1 训练数据，展示知识覆盖面与专业深度。完整版见 [examples/showcase_qa.md](examples/showcase_qa.md)
+> **基座 vs 微调对比**：[examples/model_comparison.md](examples/model_comparison.md)
 
 **问：** 在涡度相关通量测量中，随机误差的主要来源有哪些？
 
