@@ -1,0 +1,36 @@
+# GPT-Flux v1 — QLoRA training configuration (Qwen3-14B, single A100 80GB)
+model:
+  base: "Qwen/Qwen3-14B"
+  quant: "nf4"                 # 4-bit NormalFloat, double quantization
+  compute_dtype: "bfloat16"
+
+lora:
+  r: 64
+  alpha: 128
+  dropout: 0.0
+  target_modules: "all-linear"
+  task_type: "CAUSAL_LM"
+
+training:
+  epochs: 3
+  learning_rate: 2.0e-4
+  lr_scheduler: "cosine"
+  max_seq_length: 2048
+  packing: true
+  per_device_batch_size: 2
+  gradient_accumulation_steps: 16   # effective batch 32
+  gradient_checkpointing: true
+  optimizer: "paged_adamw_8bit"
+  precision: "bf16"
+  logging_steps: 10
+  save_steps: 500
+  seed: 42
+
+data:
+  dataset: "LonghaoWang/flux-sft"   # 6,175 Chinese QA pairs (private)
+  format: "chat-messages"           # {"messages": [{"role": "user"|"assistant", ...}]}
+
+hub:
+  lora_repo: "LonghaoWang/flux-gpt-qwen3-14b"
+  merged_repo: "LonghaoWang/flux-gpt-qwen3-14b-merged"
+  private: true
