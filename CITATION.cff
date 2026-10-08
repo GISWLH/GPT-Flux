@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+title: "GPT-Flux: A Domain-Specialized Chinese Q&A Model for Geoscience and Flux-Tower Research"
+message: "If you use GPT-Flux in your research, please cite it as follows."
+type: software
+authors:
+  - family-names: "Wang"
+    given-names: "Longhao"
+license: Apache-2.0
+repository-code: "https://github.com/LonghaoWang/GPT-Flux"
+url: "https://huggingface.co/LonghaoWang/flux-gpt-qwen3-14b-merged"
+abstract: >-
+  GPT-Flux is Qwen3-14B fine-tuned with QLoRA on 6,175 Chinese question-answer
+  pairs synthesized from 1,609 peer-reviewed geoscience and eddy-covariance
+  flux-tower papers, producing a professional knowledge assistant for
+  carbon-water-energy flux research.
+keywords:
+  - eddy-covariance
+  - flux-tower
+  - geoscience
+  - large-language-models
+  - QLoRA
+  - fine-tuning
+  - Chinese-NLP
+preferred-citation:
+  type: software
+  title: "GPT-Flux: A Domain-Specialized Chinese Q&A Model for Geoscience and Flux-Tower Research"
+  authors:
+    - family-names: "Wang"
+      given-names: "Longhao"
+  year: 2026
+  url: "https://github.com/LonghaoWang/GPT-Flux"
