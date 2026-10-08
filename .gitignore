@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Training artifacts
+checkpoints/
+outputs/
+*.safetensors
+*.bin
+
+# Data (large / private)
+data/
+*.jsonl
+!examples/sample_qa.jsonl
+
+# Notebooks
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
