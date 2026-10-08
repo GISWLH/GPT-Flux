@@ -95,7 +95,8 @@ python src/train.py   # defaults = v1 config (configs/qlora.yaml)
 ## Q&A Showcase
 
 > Sampled from the v1 training set — illustrating knowledge coverage and depth.
-> Full set: [examples/showcase_qa.md](examples/showcase_qa.md)
+> Full set: [examples/showcase_qa.md](examples/showcase_qa.md) ·
+> **Base vs fine-tuned**: [examples/model_comparison.md](examples/model_comparison.md)
 
 **Q:** 在涡度相关通量测量中，随机误差的主要来源有哪些？
 
