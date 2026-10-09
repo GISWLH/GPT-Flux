@@ -103,11 +103,11 @@ python src/train.py   # defaults = v1 config (configs/qlora.yaml)
 
 **GPT-Flux v1（微调后）：** 主要来源包括：湍流脉动的不完全采样（incomplete sampling of turbulent fluctuations）、仪器噪声（instrument noise）、以及数据处理中的插值和滤波误差（interpolation and filtering errors during data processing）。
 
-**Q:** 与传统的间接和离散通量测量方法相比，eddy covariance 技术测量河流 CO₂ 和 CH₄ 通量有何主要优势？
+**Q:** 在盘锦滨海湿地的验证中，MOD16 ET产品在春季和秋季的偏差具体是多少？
 
-**Qwen3-14B（基座）：** Eddy covariance 技术能够直接、连续地测量河流表面CO₂和CH₄的通量，避免了传统方法的采样干扰和滞后问题。它基于湍流脉动的瞬时相关性，具有较高的时空分辨率和代表性。此外，该方法无需复杂的采样系统，适用于大范围和长期监测。
+**Qwen3-14B（基座）：** 在盘锦滨海湿地的验证中，MOD16 ET产品在春季的偏差约为+25%～+30%，秋季偏差约为+15%～+20%。不同季节的偏差主要受植被覆盖和蒸散发过程变化的影响。
 
-**GPT-Flux v1（微调后）：** eddy covariance 技术能够提供高时间分辨率的连续通量测量，避免了间接方法的假设和离散采样的局限性，从而更准确地捕捉河流温室气体通量的动态变化。
+**GPT-Flux v1（微调后）：** 春季MOD16 ET产品低估了实际ET，偏差为-1.0 mm；秋季MOD16 ET产品高估了实际ET，偏差为+0.6 mm。
 
 ## Project structure
 
