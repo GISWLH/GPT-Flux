@@ -67,6 +67,26 @@ QUESTIONS_V2 = [
      "q": "pySEBAL这类物理过程模型与Random Forest在估算根区土壤水分时，核心区别是什么？"},
 ]
 
+# 第三批：训练原题记忆测试（8 题，一字不改来自 v1 训练集）
+QUESTIONS_V3 = [
+    {"id": "v3q1", "topic": "JULES偏差(原题)",
+     "q": "改进后的JULES模型在模拟净碳吸收时，与eddy covariance测量值相比存在多大偏差？文中提出了哪些可能的修正方法？"},
+    {"id": "v3q2", "topic": "JULES-bigleaf(原题)",
+     "q": "论文中提到的JULES模型在改进辐射截获和光合作用表征时，具体采用了什么方法取代了原有的big leaf approach？"},
+    {"id": "v3q3", "topic": "JULES验证数据(原题)",
+     "q": "论文在验证改进的JULES模型时，使用了哪些观测数据？是否涉及碳同位素分馏的测量？"},
+    {"id": "v3q4", "topic": "GCM建议(原题)",
+     "q": "论文最后建议将哪种效应纳入其他GCM中？其依据是什么？"},
+    {"id": "v3q5", "topic": "Reddy理念(原题)",
+     "q": "Reddy工具包的核心设计理念是什么？它如何解决传统eddy covariance处理中针对非理想条件的挑战？"},
+    {"id": "v3q6", "topic": "盘锦MOD16偏差(原题)",
+     "q": "根据盘锦站点的验证结果，MOD16 ET产品在春季和秋季的表现如何？具体的偏差值和百分比是多少？"},
+    {"id": "v3q7", "topic": "MOD16传感器(原题)",
+     "q": "MOD16 ET产品是基于哪种遥感传感器数据开发的？该研究的主要目的是什么？"},
+    {"id": "v3q8", "topic": "MOD16时间尺度(原题)",
+     "q": "研究中用于验证MOD16 ET产品的通量塔数据是如何处理的？时间尺度是如何与MOD16产品匹配的？"},
+]
+
 if __name__ == "__main__":
     import json
     print(json.dumps(QUESTIONS, ensure_ascii=False, indent=2))
