@@ -95,7 +95,7 @@ python src/train.py   # defaults = v1 config (configs/qlora.yaml)
 ## Q&A Showcase
 
 > Base vs fine-tuned, same questions, same decoding (temperature=0, 2–4 sentences).
-> Full 6-question comparison: [examples/model_comparison.md](examples/model_comparison.md)
+> Curated winning examples: [examples/model_comparison.md](examples/model_comparison.md)
 
 **Q:** 在涡度相关通量测量中，随机误差的主要来源有哪些？
 
