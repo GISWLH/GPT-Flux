@@ -1,0 +1,74 @@
+[
+  {
+    "q": "论文中的细尺度模型（fine-scale model）是如何验证的？其验证结果如何？",
+    "ref": "该细尺度模型针对马萨诸塞州哈佛森林（Harvard Forest）进行了参数化，并在不同生长季条件下，其预测的每小时碳和潜热通量与 eddy covariance 研究的观测数据吻合良好（good agreement）。"
+  },
+  {
+    "q": "论文中使用了哪些通量塔观测数据来验证MODIS GPP？验证指标（如R²、RMSE）的结果如何？",
+    "ref": "研究使用了美国南部大平原和内蒙古草原的多个eddy covariance通量塔观测数据，包括US-AR1、US-AR2、CN-CNG等站点。验证结果显示：MODIS GPP与观测GPP的R²在0.45~0.65之间，RMSE约为2.0~3.5 g C m⁻² d⁻¹。在非干旱年份，MODIS GPP的偏差相对较小（约10%~15%），但在严重干旱年份（如2012年），低估幅度可达30%~50%。文中未提供所有站点的具体R²和RMSE列表。"
+  },
+  {
+    "q": "论文中如何评估土壤 COS 交换对生态系统 COS 通量的影响？",
+    "ref": "论文通过单独测定土壤 COS 交换的 magnitude 和 variability，并将其与总生态系统 COS 通量进行比较，来评估土壤交换对生态系统水平 LRU 的影响。文中特别指出，草地的刈割和移除显著影响了土壤 COS 通量以及总 COS 交换。"
+  },
+  {
+    "q": "该研究对理解海岸带蓝碳（blue carbon）的贡献有何实际意义？",
+    "ref": "论文结论指出，温带盐沼是大气CO2的汇（sink），由于强初级生产（primary production）而储存了大量生物碳。通过eddy covariance连续观测，定量给出了年净碳吸收量（−483 g C m⁻² yr⁻¹），这为评估盐沼在海岸带碳循环中的作用、支撑蓝碳碳汇核算以及制定基于自然的碳管理方案提供了关键数据依据。"
+  },
+  {
+    "q": "在 permafrost peatlands 融化后，论文观察到 previously-frozen C 的释放量如何变化？新 peat 形成量又如何？",
+    "ref": "论文发现 previously-frozen C 的释放量有限（limited release），而新 peat 形成量增加（increased new peat formation），表明融化后 peatlands 可能从碳源转为碳汇。"
+  },
+  {
+    "q": "论文中提到，使用热红外遥感监测作物水分胁迫时，一个关键问题是什么？为什么需要避免这种影响？",
+    "ref": "论文指出，卫星传感器获取的遥感地表温度是植物冠层和土壤/下垫面温度的混合体，而准确检测作物胁迫需要的是与冠层指标（如蒸腾）相关的温度，因为后者能避免土壤/下垫面在判断作物水分状况或胁迫时的干扰。"
+  },
+  {
+    "q": "论文中提到的研究地点Abisko–Stordalen Mire的景观组成包括哪些类型？这些类型如何与永久冻土退化状态相关联？",
+    "ref": "该地点是一个亚北极泥炭地镶嵌体，包括palsas（永久冻土抬升区域）、thawing palsas（正在融化的palsas）、fully thawed fens（完全解冻的沼泽）以及open water bodies（开阔水体）。这些类型直接反映了永久冻土的退化状态：palsas代表未解冻区域，thawing palsas代表部分解冻，fully thawed fens和open water bodies代表完全解冻状态。"
+  },
+  {
+    "q": "根据论文，为什么在矿区复垦地使用标准异速生长方程和扩展因子估算碳储量变化可能非常不可靠？",
+    "ref": "根据论文，在CDM项目准备和最初几年，生态系统处于过渡状态，土壤通常受到严重扰动（the ecosystem is in transition and the soil is usually profoundly disturbed），此时标准异速生长和扩展因子（standard allometric and expansion factors）很可能非常不可靠（very unreliable）。"
+  },
+  {
+    "q": "研究最终产出的 'optimal lands suitable for future flux towers' 地图是如何生成的？其主要用途是什么？",
+    "ref": "该地图是通过分析现有通量塔的环境条件（ecological envelopes）以及基于遥感与气象驱动的NEP模型（10%和50%外推限制）识别出的代表性较差区域后，综合绘制出的最适合未来通量塔建设的土地分布图。其主要用途是优化未来大平原地区通量塔的布设，以最大化其数据效用，并作为NEP地图不确定性的一种代理指标。"
+  },
+  {
+    "q": "根据论文结果，粗糙度长度对哪种方法的热通量计算影响最大？3LM表现较好的部分原因是什么？",
+    "ref": "粗糙度长度对使用MOST方法计算的显热和潜热通量有显著影响，不同计算方法在雪面上会得到非常不同的结果。3LM表现较好的部分原因是它避免了在计算热通量时假设粗糙度长度。"
+  },
+  {
+    "q": "Stein 和 Oukoop 两个站点在农业管理方式上有什么主要区别？",
+    "ref": "Stein 是一个新的草地鸟类保护区（meadow bird reserve），主要通过6月和8月的割草（mowing）进行管理；Oukoop 则是一个集约化奶牛场（intensive dairy farm）。"
+  },
+  {
+    "q": "论文中如何验证月度 ETa 估算值的准确性？验证结果的关键统计指标是什么？",
+    "ref": "研究使用六个 eddy covariance (EC) 通量塔的观测数据对月度 ETa 估算值进行验证，结果显示强相关性（r² > 0.80），误差合理（均方根误差 RMSE 在 6 到 19 mm/month 之间）。"
+  },
+  {
+    "q": "论文中建议如何通过时间平均来降低EC CO2通量的随机误差？是否存在最优平均时间尺度？",
+    "ref": "论文指出随机不确定性可以通过更长时间的平均来降低，但平均时间过长会引入更多自然变异性。通过CO2通量的自协方差分析（auto-covariance analysis），建议存在一个最优平均时间尺度，但文中未给出具体数值。"
+  },
+  {
+    "q": "论文中如何区分不同下垫面类型的通量贡献？使用了什么方法进行源区分析？",
+    "ref": "研究根据土地覆盖类型划分了三个显著扇区（植被、道路和建筑物），用于比较不同城市表面的通量。源区（footprint）分析采用边界层一阶半闭合模型（boundary-layer one and half-order closure model），该模型能够区分地表和冠层汇/源以及复杂地形的影响。"
+  },
+  {
+    "q": "该研究结果对化学传输模型（chemical transport models）有何意义？",
+    "ref": "研究提供了直接观测的 NOy 干沉降通量和沉降速度数据，有助于改进化学传输模型中不同地表类型（尤其是混合阔叶林）的干沉降参数化方案，并减少对 NOx 冠层交换过程表征的不确定性。"
+  },
+  {
+    "q": "论文中观察到的白天NEE随PAR变化的滞后效应（hysteresis）方向如何？其形成机制是什么？",
+    "ref": "观察到的滞后效应为逆时针方向（counter-clockwise hysteresis）。其形成机制是：高饱和水汽压差（vapor pressure deficit）导致气孔关闭以控制光合作用，同时高温增强了呼吸作用，两者共同作用导致了NEE对PAR响应的滞后。"
+  },
+  {
+    "q": "在该研究中，平流（advection）对涡度相关（eddy covariance）碳收支的贡献是如何计算的？具体采用了哪两种方法？",
+    "ref": "该研究通过两种方法计算平流对碳收支的贡献：(1) 对 EC 数据进行直接测量的平流项进行物理校正（physical correction），即直接修正 EC 数据中的平流项；(2) u∗过滤法（u∗filter approach），即用经验建模的通量替换低于特定站点阈值 u∗ 的时段。文中具体使用了 u∗ 阈值 0.3 m s⁻¹，并仅对 EC 进行水平平流（horizontal advection）校正。"
+  },
+  {
+    "q": "该研究主要采用什么方法来评估生态修复项目对桐锣山矿区生态系统碳储量的影响？",
+    "ref": "研究采用 InVEST 模型（Integrated Valuation of Ecosystem Services and Trade-offs）的 Carbon 模块，结合土地利用/覆被变化（LUCC）数据，评估了 2000–2020 年桐锣山矿区生态修复项目对生态系统碳储量的影响。文中未提及使用 eddy covariance 或通量塔等直接观测方法。"
+  }
+]
