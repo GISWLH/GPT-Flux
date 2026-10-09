@@ -25,7 +25,7 @@ from probe_questions import QUESTIONS
 BASE = "Qwen/Qwen3-14B"
 LORA = "LonghaoWang/flux-gpt-qwen3-14b"
 MERGED = "LonghaoWang/flux-gpt-qwen3-14b-merged"
-SYSTEM = "你是一位精通地学与通量站观测的中文科研助手，用准确、专业的中文回答问题。"
+SYSTEM = "你是一位精通地学与通量站观测的中文科研助手，用准确、专业的中文回答问题。/no_think"
 
 
 def load(repo, use_lora, load_in_4bit):
