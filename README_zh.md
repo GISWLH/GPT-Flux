@@ -88,16 +88,20 @@ python src/train.py   # 默认即 v1 配置（configs/qlora.yaml）
 
 ## 问答效果展示
 
-> 取自 v1 训练数据，展示知识覆盖面与专业深度。完整版见 [examples/showcase_qa.md](examples/showcase_qa.md)
-> **基座 vs 微调对比**：[examples/model_comparison.md](examples/model_comparison.md)
+> 基座 vs 微调，同一问题、同一解码参数（temperature=0，2–4 句话）。
+> 完整 6 题对比见 [examples/model_comparison.md](examples/model_comparison.md)
 
 **问：** 在涡度相关通量测量中，随机误差的主要来源有哪些？
 
-**答：** 随机误差主要来自湍流采样的统计不确定性、仪器噪声以及非平稳条件下的采样代表性问题。对于信噪比高的分析仪（如测量热通量、CO₂或 H₂O），湍流本身的随机性是主导项；而对于信噪比低的系统（如痕量气体和气溶胶），仪器噪声贡献显著增大……
+**Qwen3-14B（基座）：** 涡度相关通量测量中的随机误差主要来源于传感器噪声、湍流脉动的不完全采样以及仪器安装和环境因素引起的瞬时扰动。此外，数据采集频率不足和信号处理中的滤波误差也会引入随机误差。
+
+**GPT-Flux v1（微调后）：** 主要来源包括：湍流脉动的不完全采样（incomplete sampling of turbulent fluctuations）、仪器噪声（instrument noise）、以及数据处理中的插值和滤波误差（interpolation and filtering errors during data processing）。
 
 **问：** 与传统的间接和离散通量测量方法相比，eddy covariance 技术测量河流 CO₂ 和 CH₄ 通量有何主要优势？
 
-**答：** EC 技术提供连续、高时间分辨率的直接通量观测，避免了箱式法对水-气界面的扰动以及离散采样在时间代表性上的不足，能够捕捉河流系统对降水事件、昼夜节律等快速过程的通量响应……
+**Qwen3-14B（基座）：** Eddy covariance 技术能够直接、连续地测量河流表面CO₂和CH₄的通量，避免了传统方法的采样干扰和滞后问题。它基于湍流脉动的瞬时相关性，具有较高的时空分辨率和代表性。此外，该方法无需复杂的采样系统，适用于大范围和长期监测。
+
+**GPT-Flux v1（微调后）：** eddy covariance 技术能够提供高时间分辨率的连续通量测量，避免了间接方法的假设和离散采样的局限性，从而更准确地捕捉河流温室气体通量的动态变化。
 
 ## 项目结构
 
