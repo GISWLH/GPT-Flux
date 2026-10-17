@@ -1,3 +1,7 @@
+<!-- readme-visual-refresh:banner -->
+![GPT-Flux — hand-drawn project banner](assets/readme/banner.svg)
+<!-- /readme-visual-refresh:banner -->
+
 <div align="center">
 
 # GPT-Flux
@@ -155,3 +159,18 @@ See [CITATION.cff](CITATION.cff). Model weights: Apache 2.0 (base) — fine-tune
 <div align="center">
 Built from 1,609 papers · Trained on 1 GPU · <b>Total cost $3.15</b>
 </div>
+
+<!-- readme-visual-refresh:artwork-source -->
+[Editable banner artwork · Excalidraw](assets/readme/banner.excalidraw)
+<!-- /readme-visual-refresh:artwork-source -->
+
+
+<!-- readme-visual-refresh:execution -->
+## Demonstration captured on EHPC · 17 October 2026
+
+![Original extract_chunks helper executed on the repository README.md to extract its Abstract. Offline text preprocessing only; no model inference or API request was made.](assets/readme/execution-result.png)
+
+Original extract_chunks helper executed on the repository README.md to extract its Abstract. Offline text preprocessing only; no model inference or API request was made.
+
+[Execution record and checksums](assets/readme/execution-record.json).
+<!-- /readme-visual-refresh:execution -->

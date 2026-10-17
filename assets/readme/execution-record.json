@@ -1,0 +1,12 @@
+{
+  "repo": "GISWLH/GPT-Flux",
+  "environment": "EHPC PBS",
+  "execution_scope": "Original extract_chunks helper executed on the repository README.md to extract its Abstract. Offline text preprocessing only; no model inference or API request was made.",
+  "exit_code": 0,
+  "output": {
+    "path": "assets/readme/execution-result.png",
+    "sha256": "47f6b954c5f2a82007da98b3a64c8c036a5793df91e8d3613a03461ce98864ce"
+  },
+  "browser": "Firefox 91.10 ESR",
+  "source_modified": false
+}
